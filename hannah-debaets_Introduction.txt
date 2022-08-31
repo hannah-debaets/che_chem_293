@@ -1,0 +1,3 @@
+Major: Bioinformatics
+Research Interests: Antibiotic resistance
+Why Applied Bioinformatics: I'm excited for the hands-on, project based approach to learning Bioinformatics.
