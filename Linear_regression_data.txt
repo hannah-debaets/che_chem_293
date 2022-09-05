@@ -1,0 +1,40 @@
+Draft!
+
+----What does the model achieve?----
+The model comparing the amount of cat play time (mins) vs 
+amount of cat food consumed (g) measures the relationship 
+between these two variables within the range of 5 - 75 mins 
+of cat play.
+
+
+----How should metrics be interpreted? ----
+Slope (95% Confidence Interval): 0.4866 to 0.7437
+
+We are 95% confident that the true slop falls within the 
+range 0.4866 to 0.7437.
+95% confidence means that the formula used to derive the 
+slope is correct 95% of the time.
+
+R-squared: 0.9680 
+According to this model 96.8% of variation in the amount of
+cat food consumed is explained by the variation in the 
+amount of cat play time (mins)
+
+p-value: < 0.0001
+
+The probability of 
+
+----What are appropriate use cases?----
+-predicting cat food consumption at a given amount of cat play time
+
+
+----How is it implemented? * ----
+It is okay to recognize limits of your expertise
+It is NOT okay to misuse/misinterpret/misreport!
+
+----What are caveats/biases/concerns to its usage?----
+-only 7 data points
+-one cat? many cats?
+
+----How to interpret this specific result and advising action/next steps----
+
