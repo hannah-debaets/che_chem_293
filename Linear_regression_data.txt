@@ -1,5 +1,3 @@
-Draft!
-
 ----What does the model achieve?----
 The model comparing the amount of cat play time (mins) vs 
 amount of cat food consumed (g) measures the relationship 
@@ -9,32 +7,53 @@ of cat play.
 
 ----How should metrics be interpreted? ----
 Slope (95% Confidence Interval): 0.4866 to 0.7437
-
-We are 95% confident that the true slop falls within the 
-range 0.4866 to 0.7437.
+We are 95% confident that the true slope falls within the 
+range 0.4866 to 0.7437. 
 95% confidence means that the formula used to derive the 
 slope is correct 95% of the time.
+The slope tells us that for every additional minute of 
+exercise the cat does in a day, the cat will eat between 
+0.4866 to 0.7437 additional grams of food.
+
 
 R-squared: 0.9680 
 According to this model 96.8% of variation in the amount of
 cat food consumed is explained by the variation in the 
-amount of cat play time (mins)
+amount of cat play time (mins).
 
 p-value: < 0.0001
-
-The probability of 
+The probability of incorrectly concluding that there is a
+relationship between these two variables when infact there 
+is no relationship is less than 0.01%.
 
 ----What are appropriate use cases?----
--predicting cat food consumption at a given amount of cat play time
+We can use the model to predict cat food consumption at a 
+given amount of cat playtime.
 
 
-----How is it implemented? * ----
-It is okay to recognize limits of your expertise
-It is NOT okay to misuse/misinterpret/misreport!
+----How is it implemented? ----
+The linear regression was calculated using the GraphPad application.
+This analysis used a least squares regression calculation which 
+minimizes residuals from each individual data point.
 
 ----What are caveats/biases/concerns to its usage?----
--only 7 data points
--one cat? many cats?
+There are certainly limitations to this study. There are only seven
+data points, and we don't know if the data was collected from one 
+individual cat or from multiple cats. Additionally, with only seven 
+data points, we know not every cat breed is covered by this study. 
+
+We also need to be careful to not extrapolate. The range of time played 
+collected in the study was 5 - 75 mins. So, we will not use the model to
+predict cat food consumption outside of that cat playtime interval.
 
 ----How to interpret this specific result and advising action/next steps----
+We can use this model to help predict how much food to give to an 
+excercising cat without giving the cat unlimited food.
+
+Next steps: 
+In order to better predict the amount of food a cat needs to eat, 
+we should collect some data from other cat breeds, see if the findings 
+hold true or if species should be a factor in the analysis. Additionally,
+we can look for other possible factors that could contribute to how 
+much food the cat eats. 
 
